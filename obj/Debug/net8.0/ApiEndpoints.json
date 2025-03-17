@@ -1,0 +1,176 @@
+[
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CategoriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CategoriesController",
+    "Method": "Add",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Pratik_Survivor_Dependency_Injection.Models.Category.CategoryAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CategoriesController",
+    "Method": "GetById",
+    "RelativePath": "api/Categories/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CategoriesController",
+    "Method": "Update",
+    "RelativePath": "api/Categories/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Pratik_Survivor_Dependency_Injection.Models.Category.CategoryUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CategoriesController",
+    "Method": "Delete",
+    "RelativePath": "api/Categories/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CompetitorsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Competitors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CompetitorsController",
+    "Method": "Add",
+    "RelativePath": "api/Competitors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Pratik_Survivor_Dependency_Injection.Models.CompetitorAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CompetitorsController",
+    "Method": "GetById",
+    "RelativePath": "api/Competitors/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CompetitorsController",
+    "Method": "Update",
+    "RelativePath": "api/Competitors/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Pratik_Survivor_Dependency_Injection.Models.Competitor.CompetitorUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CompetitorsController",
+    "Method": "Delete",
+    "RelativePath": "api/Competitors/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pratik_Survivor_Dependency_Injection.Controllers.CompetitorsController",
+    "Method": "GetByCategoryId",
+    "RelativePath": "api/Competitors/categories/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

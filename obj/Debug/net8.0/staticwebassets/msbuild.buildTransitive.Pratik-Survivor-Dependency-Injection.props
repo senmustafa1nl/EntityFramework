@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Pratik-Survivor-Dependency-Injection.props" />
+</Project>

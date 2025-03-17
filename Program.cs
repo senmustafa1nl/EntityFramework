@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Pratik_CodeFirstRelation.Context;
+using Pratik_Survivor_Dependency_Injection.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<PatikaSecondDbContext>(options => options.UseSqlServer(connectionString));
-
+builder.Services.AddDbContext<SurvivorDbContext>(options => options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
