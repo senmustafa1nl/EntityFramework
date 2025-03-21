@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "Pratik_DependencyInjection.Controllers.Classroom",
+    "Method": "GetTeacherInfo",
+    "RelativePath": "api/Classroom",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
